@@ -46,10 +46,17 @@ public class Student {
         this.averageMark = averageMark;
     }
 
-    public int getScholarship(int sum){
-        if (averageMark==5){
-            return sum=2000;
-        }
-        else return sum=1900;
+    public int getScholarship() {
+        int sum;
+        if (averageMark == 5) {
+            return sum = 2000;
+        } else return sum = 1900;
+    }
+
+    public void show() {
+        System.out.print(getLastName() + " ");
+        System.out.print(getFirstName() + " ");
+        System.out.print(getGroup() + " ");
+        System.out.print(getAverageMark() + " ");
     }
 }

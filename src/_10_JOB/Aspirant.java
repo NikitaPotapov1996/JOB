@@ -20,9 +20,18 @@ public class Aspirant extends Student {
         this.textWork = textWork;
     }
 
-    public int getScholarship(int sum) {
+    public int getScholarship() {
+        int sum;
         if (averageMark == 5) {
             return sum = 2500;
         } else return sum = 2200;
+    }
+
+    public void show(){
+        System.out.print(getLastName() + " ");
+        System.out.print(getFirstName() + " ");
+        System.out.print(getGroup() + " ");
+        System.out.print(getAverageMark() + " ");
+        System.out.print(getTextWork() + " ");
     }
 }
