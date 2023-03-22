@@ -1,4 +1,4 @@
-package _10_JOB;
+package Student;
 
 public class Student {
     private String firstName, lastName, group;

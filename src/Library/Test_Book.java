@@ -1,6 +1,7 @@
-package _10_JOB;
+package Library;
 
-import java.util.Arrays;
+import Library.Book;
+import Library.Reader;
 
 public class Test_Book {
 

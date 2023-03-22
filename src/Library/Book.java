@@ -1,4 +1,4 @@
-package _10_JOB;
+package Library;
 
 public class Book {
     String author, type;

@@ -1,4 +1,6 @@
-package _10_JOB;
+package Person;
+
+import Person.Person;
 
 public class PersonDemo {
     public static void main(String[] args) {

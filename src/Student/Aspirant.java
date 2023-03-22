@@ -1,4 +1,4 @@
-package _10_JOB;
+package Student;
 
 public class Aspirant extends Student {
 

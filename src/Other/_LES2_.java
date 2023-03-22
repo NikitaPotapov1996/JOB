@@ -1,4 +1,4 @@
-package _10_JOB;
+package Other;
 
 public class _LES2_ {
     static int factorial(int n) {

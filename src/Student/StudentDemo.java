@@ -1,4 +1,6 @@
-package _10_JOB;
+package Student;
+
+import Student.Student;
 
 public class StudentDemo {
     public static void main(String[] args) {

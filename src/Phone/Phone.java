@@ -1,4 +1,4 @@
-package _10_JOB;
+package Phone;
 
 public class Phone {
     private String number, model, person;

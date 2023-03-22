@@ -1,4 +1,4 @@
-package _10_JOB;
+package Other;
 
 public class _LES1_ {
     static void test(int... array) {
