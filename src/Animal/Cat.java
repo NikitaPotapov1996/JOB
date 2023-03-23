@@ -1,14 +1,24 @@
 package Animal;
 
-public abstract class Cat extends Animal{
+public class Cat extends Animal {
 
-    public Cat(String name) {
-        this.name=name;
+    public Cat(String name, String food, String noise) {
+        this.name = name;
+        this.food = food;
+        this.noise = noise;
     }
 
-    public abstract String eat();
+    public String eat() {
+        System.out.println(getName() + " ест " + getFood());
+        return getFood();
+    }
 
-    public abstract String makeNoise();
+    public String makeNoise() {
+        System.out.println(getName() + " издает " + getNoise());
+        return getNoise();
+    }
 
-    public abstract String getDescription();
+    public void getDescription() {
+        System.out.println(getName() + " ест " + getFood() + " издает " + getNoise());
+    }
 }
