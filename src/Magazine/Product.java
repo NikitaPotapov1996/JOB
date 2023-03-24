@@ -1,15 +1,15 @@
 package Magazine;
 
-public abstract class Product {
-   private String name;
-   private double price;
-   private double rank;
+public class Product {
+    private String name;
+    private double price;
+    private double rank;
 
-/*    public Product(String name, double price, double rank) {
+    public Product(String name, double price, double rank) {
         this.name = name;
         this.price = price;
         this.rank = rank;
-    }*/
+    }
 
     public String getName() {
         return name;
@@ -35,10 +35,9 @@ public abstract class Product {
         this.rank = rank;
     }
 
-    public abstract void showInfo();
-    /*{
+    public void showInfo() {
         System.out.print(getName() + " ");
         System.out.print(getPrice() + " ");
         System.out.println(getRank());
-    }*/
+    }
 }

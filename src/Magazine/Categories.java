@@ -50,11 +50,5 @@ public class Categories {
 
         Categories categories1 = new Categories("balls", balls);
 
-        public void showInfo(product[])    {
-        System.out.print(getName() + " ");
-        System.out.print(getPrice() + " ");
-        System.out.println(getRank());
-    }
-
     }
 }
