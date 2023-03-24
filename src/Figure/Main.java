@@ -8,7 +8,7 @@ public class Main {
         figures[2] = new Rectangle(50, 50);
         figures[3] = new Rectangle("Синий", 40, 40);
         for (int i = 1; i < 5; i++) {
-            System.out.print("Фигура № " + i + "- ");
+            System.out.print("Фигура №" + i + " - ");
             figures[i-1].draw();
         }
     }
