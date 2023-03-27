@@ -29,6 +29,11 @@ public class Categories {
         this.name = name;
     }
 
+    public void showInfo() {
+        System.out.print(getName() + " ");
+        System.out.print(getProduct() + " ");
+    }
+
     public static void main(String[] args) {
 
 
@@ -50,5 +55,7 @@ public class Categories {
 
         Categories categories1 = new Categories("balls", balls);
 
+        balls[0].showInfo();
+        categories1.showInfo();
     }
 }
