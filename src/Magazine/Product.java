@@ -35,7 +35,7 @@ public class Product {
         this.rank = rank;
     }
 
-    public void showInfo() {
+    public void showInfoProduct() {
         System.out.print(getName() + " ");
         System.out.print(getPrice() + " ");
         System.out.println(getRank());
