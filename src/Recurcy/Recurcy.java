@@ -10,8 +10,8 @@ public class Recurcy {
                 return 1;
             }
         } else if (x > y) {
-            Chisla(x - 1, y);
             System.out.println(x);
+            Chisla(x - 1, y);
             if (x == y) {
                 return 1;
             }
@@ -21,6 +21,6 @@ public class Recurcy {
 
     public static void main(String[] args) {
 
-        Chisla(10, 5);
+        Chisla(20, 10);
     }
 }
